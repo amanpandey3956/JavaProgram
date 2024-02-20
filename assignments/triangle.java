@@ -13,6 +13,8 @@ public class triangle{
             }
             System.out.println(" ");
         }
+
+        
     }
 
 }
