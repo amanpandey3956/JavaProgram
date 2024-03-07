@@ -2,13 +2,13 @@
 
 //Hierarchical Inheritance Example
 
-class Animal{  
+class Pets{  
     void eat(){System.out.println("eating...");}  
 }  
-class Dog extends Animal{  
-    void bark(){System.out.println("barking...");}  
+class rabbit extends Pets{  
+    void bark(){System.out.println("chang...");}  
 }  
-class Cat extends Animal{  
+class Cat extends Pets{  
     void meow(){System.out.println("meowing...");}  
 }
 
