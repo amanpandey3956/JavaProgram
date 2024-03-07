@@ -2,19 +2,19 @@
 
 //Multilevel Inheritance Example
 
-class Animal{  
+class A{  
     void eat(){System.out.println("eating...");}  
 }  
-class Dog extends Animal{  
+class B extends A{  
     void bark(){System.out.println("barking...");}  
 }  
-class BabyDog extends Dog{  
+class C extends B{  
     void weep(){System.out.println("weeping...");}  
 } 
 
 class TestInheritance2{  
     public static void main(String args[]){  
-    BabyDog d=new BabyDog();  
+    C d=new C();  
     d.weep();  
     d.bark();  
     d.eat();  
