@@ -1,4 +1,4 @@
-//When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, BabyDog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
+//When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, C class inherits the B class which again inherits the A class, so there is a multilevel inheritance.
 
 //Multilevel Inheritance Example
 
