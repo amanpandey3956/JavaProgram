@@ -5,14 +5,14 @@ class Vehicle {
     }
 }
 
-class Car extends Vehicle {
+class Cars extends Vehicle {
     
     public void speedUp() {
         System.out.println("Speeding up the car.");
     }
 }
 
-class Bicycle extends Vehicle {
+class Bicycles extends Vehicle {
 
     public void speedUp() {
         System.out.println("Pedaling faster on the bicycle.");
@@ -22,9 +22,9 @@ class Bicycle extends Vehicle {
 public class testnew1 {
     public static void main(String[] args) {
 
-        Car car = new Car();
-        Bicycle bicycle = new Bicycle();
-        car.speedUp();
-        bicycle.speedUp();
+        Cars cars = new Cars();
+        Bicycles bicycles = new Bicycles();
+        cars.speedUp();
+        bicycles.speedUp();
     }
 }
