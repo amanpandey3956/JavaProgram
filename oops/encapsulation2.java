@@ -1,12 +1,8 @@
-public class testnew {
+// Encapsulation in java
+
+class Area {
     private double length;
     private double width;
-
-    // Constructor
-    public testnew(double length, double width) {
-        this.length = length;
-        this.width = width;
-    }
 
     public double getLength() {
         return length;
@@ -27,16 +23,11 @@ public class testnew {
     public double calculateArea() {
         return length * width;
     }
-
+}
+public class encapsulation2 {
     public static void main(String[] args) {
 
-        testnew rectangle = new testnew(5, 10);
-
-        System.out.println("Length is: " + rectangle.getLength());
-        System.out.println("Width is: " + rectangle.getWidth());
-        System.out.println("Area is: " + rectangle.calculateArea());
-
-        // Modifying the length and width using setter methods
+        Area rectangle = new Area();
         
         rectangle.setLength(7);
         rectangle.setWidth(12);
