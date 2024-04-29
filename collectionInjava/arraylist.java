@@ -3,12 +3,12 @@
 import java.util.*;
 public class arraylist{
     public static void main(String[] args) {
-        ArrayList<String> StdNames = new ArrayList<>();
+        ArrayList<String> studentnames = new ArrayList<>();
         // Adding elements to the list using add() method
-        StdNames.add("John");
-        StdNames.add("parth");
-        StdNames.add("yash");
+        studentnames.add("John");
+        studentnames.add("parth");
+        studentnames.add("yash");
         
-        System.out.println("list of student names : "+StdNames);
+        System.out.println("list of student names : "+studentnames);
     }
 }

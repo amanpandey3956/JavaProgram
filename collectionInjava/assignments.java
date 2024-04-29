@@ -10,8 +10,6 @@ public class assignments{
         Iterator<String> name = colors.iterator();
         while (name.hasNext()) {
             System.out.println("iterator function: " +name.next());
-        }
-            
-
+        }        
     }
 }
